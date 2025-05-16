@@ -1,0 +1,33 @@
+div {
+  margin: 5px;
+}
+
+h1 {
+  color: blue;
+}
+
+#third > span {
+  visibility: hidden; /* hides the span but keeps the space */
+}
+
+/* Remove or comment this out to show the paragraph again */
+/* .right {
+  display: none;
+} */
+
+p.right {
+  display: block; /* explicitly show the paragraph with class 'right' */
+}
+
+#third p {
+  background-color: lightblue; /* background color only for p inside #third */
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+p {
+  color: red;
+}
